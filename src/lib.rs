@@ -252,6 +252,7 @@ pub use default_client::DefaultClient;
 
 pub use socket::Socket;
 pub use web_socket::WebSocket;
+pub mod test_helpers;
 
 pub mod api {
     pub use super::api_gen::*;
